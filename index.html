@@ -1,0 +1,375 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NEONX</title>
+    <link rel="icon" type="image/png" sizes="16x16" href="rocket.jpeg">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700;900&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- === HEADER / NAVBAR === -->
+    <!-- Sticky navbar dengan mobile responsive menu -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <div class="logo">NEONX</div>
+            <ul class="nav-menu">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#tokenomics">Tokenomics</a></li>
+                <li><a href="#Airdrop Program">Airdrop Program</a></li>
+                <li><a href="#whitepaper" target="_blank">Whitepaper</a></li>
+             
+            </ul>
+             <div class="cta-buttons">
+        <!-- Connect Wallet -->
+        <a href="https://albedo.link/confirm" onclick="openWalletTab()" class="btn btn-secondary hero-wallet" data-track="hero_wallet">
+            <i class="fas fa-wallet"></i> Connect Wallet
+        </a>
+        <!-- Buy Button -->
+        <a href="https://scopuly.com/trade/USDC-XLM/GA5ZSEJYB37JRC5AVCIA5MOP4RHTM335X2KGX3IHOJAPP5RE34K4KZVN/native" 
+           target="_blank" rel="noopener noreferrer" class="btn btn-primary buy-btn">
+            <i class="fas fa-shopping-cart"></i> Buy $NEONX
+        </a>
+    </div>
+    </nav>
+
+    <!-- === HERO SECTION === -->
+    <!-- Background animasi dengan statistik real-time -->
+    <section id="home" class="hero">
+        <div class="hero-bg-animation"></div>
+        <div class="hero-container">
+            <div class="hero-content">
+                <h1 class="animate-fadeInUp">NEONX</h1>
+                <p class="animate-fadeInUp" style="animation-delay: 0.2s;">The NEONX token serves as the core of the ecosystem, used for transaction fees, staking, and participation in governance. With a strong emphasis on security, transparency, and speed, NEONX aims to become a foundation for future digital innovation.</p>
+                <div class="hero-cta animate-fadeInUp" style="animation-delay: 0.4s;">
+                    <a href="#" class="btn btn-primary">Buy $NEONX</a>
+                    <a href="#chart" class="btn btn-secondary">View Chart</a>
+                    <a href="#community" class="btn btn-secondary">Join Community</a>
+                </div>
+                <!-- Live Stats -->
+                <div class="hero-stats">
+                    <div class="stat-card">
+                        <div class="stat-value" data-price="$0.000247">0.000247</div>
+                        <div class="stat-label">Price</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-value" data-mcap="$2.47M">2.47M</div>
+                        <div class="stat-label">Market Cap</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-value" data-holders="12,847">12,847</div>
+                        <div class="stat-label">Holders</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-value" data-liquidity="$1.2M">1.2M</div>
+                        <div class="stat-label">Liquidity</div>
+                    </div>
+                </div>
+    </section>
+
+
+
+    
+  <!-- === SIMPLE TRUST LOGOS - COPY PASTE === -->
+<section class="section trust-section">
+    <div class="container">
+        <h2 class="section-title">Trusted By</h2>
+        <div class="trust-grid">
+            
+            <!-- SCOPULY -->
+            <a href="https://scopuly.com" target="_blank" class="trust-item">
+                <div class="trust-logo"><i class="fas fa-chart-line" style="color: #00D4FF;"></i></div>
+                <h4>Scopuly</h4>
+                <p>DEX</p>
+            </a>
+            <!-- CERTIK -->
+            <a href="https://certik.com" target="_blank" class="trust-item">
+                <div class="trust-logo"><i class="fas fa-shield-alt" style="color: #00D4AA;"></i></div>
+                <h4>Stellarterm</h4>
+                <p>Trade</p>
+            </a>
+
+            <!-- STELLAR -->
+            <a href="https://stellar.org" target="_blank" class="trust-item">
+                <div class="trust-logo"><i class="fas fa-star" style="color: #0000FF;"></i></div>
+                <h4>Stellar</h4>
+                <p>Network</p>
+            </a>
+
+        </div>
+    </div>
+</section>
+
+    <!-- === ABOUT PROJECT === -->
+    <section id="about" class="section">
+        <div class="container">
+            <h2 class="section-title">About NEONX</h2>
+            <div class="about-grid">
+                <div class="about-image">
+                    <div class="about-mockup">
+                        <img src="rocket.jpeg" alt="Rocket" style="width:300px; height: 550px;px; vertical-align:middle;">
+                    </div>
+                </div>
+                <div class="about-content">
+                    <h3>Vision & Mission</h3>
+                    <p>NEONX is building the infrastructure for the next 1 billion Web3 users. We solve the scalability trilemma with our revolutionary layer-2 solution.</p>
+                    <div class="about-features">
+                        <div class="feature-mini">
+                            <i class="fas fa-bolt"></i>
+                            <span>10,000 TPS</span>
+                        </div>
+                        <div class="feature-mini">
+                            <i class="fas fa-dollar-sign"></i>
+                            <span>$0.0001 Fees</span>
+                        </div>
+                        <div class="feature-mini">
+                            <i class="fas fa-shield-alt"></i>
+                            <span>Bank-grade Security</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- === FEATURES / UTILITY === -->
+    <section class="section" style="background: rgba(255,255,255,0.02);">
+        <div class="container">
+            <h2 class="section-title">Token Utility</h2>
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-icon"><i class="fas fa-university"></i></div>
+                    <h3>DeFi Yield Farming</h3>
+                    <p>Stake $NEONX to earn high APY rewards with our optimized farming pools.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon"><i class="fas fa-image"></i></div>
+                    <h3>NFT Marketplace</h3>
+                    <p>Exclusive NFT drops and marketplace with $NEONX as native currency.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon"><i class="fas fa-gamepad"></i></div>
+                    <h3>GameFi Rewards</h3>
+                    <p>Play-to-earn gaming ecosystem powered by $NEONX token economy.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon"><i class="fas fa-globe"></i></div>
+                    <h3>Governance</h3>
+                    <p>DAO voting rights and protocol governance participation.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- === TOKENOMICS === -->
+    <section id="tokenomics" class="section">
+        <div class="container">
+            <h2 class="section-title">Tokenomics</h2>
+            <div class="tokenomics-grid">
+                <div class="tokenomics-info">
+                    <h4>Transparent & Fair Launch</h4>
+                    <ul class="tokenomics-list">
+                        <li><span>Total Supply:</span> <strong>1,000,000,000 $NEONX</strong></li>
+                        <li><span>Tax:</span> <strong>5% Buy / 5% Sell</strong></li>
+                        <li><span>Liquidity:</span> <strong>30% Burned</strong></li>
+                        <li><span>Contract:</span> <strong>Renounced</strong></li>
+                        <li><span>Dev Wallet:</span> <strong>Zero Tokens</strong></li>
+                        <li></li>
+                    </ul>
+                </div>
+                <div>
+                    <canvas id="tokenomicsChart"></canvas>
+                </div>
+            </div>
+        </div>
+    </section>
+
+<!-- === LIVE CHART - SCOPULY XLM/USDC INTEGRATION === -->
+<section id="chart" class="section">
+    <div class="live-data-wrapper">
+        <!-- Header with Scopuly Link -->
+        <div class="live-header">
+            <div class="live-status">
+                <div class="live-dot"></div>
+                <span class="live-text">LIVE - Stellar USDC/XLM Trading</span>
+            </div>
+            <a href="https://scopuly.com/trade/USDC-XLM/GA5ZSEJYB37JRC5AVCIA5MOP4RHTM335X2KGX3IHOJAPP5RE34K4KZVN/native" 
+               target="_blank" rel="noopener noreferrer" 
+               class="scopuly-live-btn">
+                <i class="fas fa-external-link-alt"></i>
+                View Live Chart
+            </a>
+        </div>
+        
+        <!-- Scopuly Trading Widget Embed -->
+        <div class="scopuly-embed-container">
+            <iframe 
+                src="https://scopuly.com/trade/USDC-XLM/GA5ZSEJYB37JRC5AVCIA5MOP4RHTM335X2KGX3IHOJAPP5RE34K4KZVN/native?embed=1&theme=dark" 
+                frameborder="0" 
+                width="100%" 
+                height="550"
+                class="scopuly-chart-frame"
+                title="USDC/XLM Live Chart - Scopuly"
+                loading="lazy">
+            </iframe>
+        </div>
+        
+        <!-- Trading Stats Overlay -->
+        <div class="trading-stats-overlay">
+            <div class="stat-group">
+                <div class="stat-item">
+                    <span class="stat-label">Pair</span>
+                    <span class="stat-value">USDC/XLM</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-label">Pool</span>
+                    <span class="stat-value">Native DEX</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-label">Liquidity</span>
+                    <span class="stat-value">$1.25M</span>
+                </div>
+            </div>
+            <div class="stat-group">
+                <div class="stat-item">
+                    <span class="stat-label">Volume 24H</span>
+                    <span class="stat-value">$2.47M</span>
+                </div>
+                <div class="stat-label">Trades 24H</span>
+                    <span class="stat-value">12.4K</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- === AIRDROP ROADMAP === -->
+<section id="airdrop" class="section">
+    <div class="container">
+        <h2 class="section-title">Airdrop Program</h2>
+        <div class="roadmap-container">
+            <div class="roadmap-timeline">
+
+                <div class="roadmap-item">
+                    <div class="roadmap-content">
+                        <div class="roadmap-dot"></div>
+                        <div class="roadmap-phase">Phase 1 - Registration</div>
+                        <ul>
+                            <li>Open Airdrop Registration</li>
+                            <li>Connect Wallet</li>
+                            <li>Join Community</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="roadmap-item">
+                    <div class="roadmap-content">
+                        <div class="roadmap-dot"></div>
+                        <div class="roadmap-phase">Phase 2 - Tasks & Engagement</div>
+                        <ul>
+                            <li>Social Media Tasks</li>
+                            <li>Referral Program</li>
+                            <li>Earn Points</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="roadmap-item">
+                    <div class="roadmap-content">
+                        <div class="roadmap-dot"></div>
+                        <div class="roadmap-phase">Phase 3 - Snapshot</div>
+                        <ul>
+                            <li>Wallet Snapshot</li>
+                            <li>Eligibility Check</li>
+                            <li>Anti-Bot Verification</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="roadmap-item">
+                    <div class="roadmap-content">
+                        <div class="roadmap-dot"></div>
+                        <div class="roadmap-phase">Phase 4 - Distribution</div>
+                        <ul>
+                            <li>Token Distribution</li>
+                            <li>Claim Airdrop</li>
+                            <li>Staking Available</li>
+                        </ul>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</section>
+
+    <!-- === TEAM SECTION === -->
+    <section class="section" style="background: rgba(255,255,255,0.02);">
+        <div class="container">
+            <h2 class="section-title">Team</h2>
+            <div class="team-grid">
+                <div class="team-card">
+                    <div class="team-avatar">JD</div>
+                    <h4>John Doe</h4>
+                    <p>Founder & CEO</p>
+                    <div class="team-social">
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                    </div>
+                </div>
+                <div class="team-card">
+                    <div class="team-avatar">SM</div>
+                    <h4>Sarah Miller</h4>
+                    <p>CTO</p>
+                    <div class="team-social">
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                    </div>
+                </div>
+                <div class="team-card">
+                    <div class="team-avatar">MK</div>
+                    <h4>Mike Kim</h4>
+                    <p>Blockchain Lead</p>
+                    <div class="team-social">
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- === COMMUNITY SECTION === -->
+    <section id="community" class="section social-section">
+        <div class="container">
+            <h2 class="section-title">Join Community</h2>
+            <p style="text-align: center; font-size: 1.2rem; margin-bottom: 3rem; color: var(--text-secondary);">Be part of the NEONX revolution</p>
+            <div class="social-links">
+                <a href="#" class="social-link"><i class="fab fa-telegram-plane"></i></a>
+                <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+                <a href="#" class="social-link"><i class="fab fa-discord"></i></a>
+            </div>
+        </div>
+    </section>
+
+   
+
+   
+            <div class="footer-bottom">
+                <p>&copy; 2024 NEONX. All rights reserved. | <a href="#">Disclaimer</a> | <a href="#">Privacy Policy</a></p>
+                <p style="font-size: 0.8rem; opacity: 0.6;">This website is for informational purposes only. Do your own research. Not financial advice
+
+                                    </p>
+            </div>
+        </div>
+    </footer>
+
+   
+
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
